@@ -1,0 +1,32 @@
+package com.company;
+
+import com.sun.jdi.Value;
+
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in=new Scanner(System.in);
+        System.out.print("Enter the string: ");
+        String string=in.nextLine();
+        StringBuilder stringbuilder = new StringBuilder(string);
+        System.out.print("Enter the start limit: ");
+        int start_Limit=in.nextInt();
+        System.out.print("Enter the end limit: ");
+        int end_Limit=in.nextInt();
+        System.out.println("The substring of the string is "+stringbuilder.substring(start_Limit,end_Limit));
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
